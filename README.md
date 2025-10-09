@@ -32,7 +32,7 @@ Dự án quản lý sinh viên và lớp học được xây dựng bằng **ASP
 
 ## Giao diện
 <img width="1881" height="953" alt="image" src="https://github.com/user-attachments/assets/4b01cc9b-3521-45fb-810b-d091edcd2a61" />
-<img width="1895" height="463" alt="image" src="https://github.com/user-attachments/assets/97690da2-05ea-4864-8d92-48df59ae74c4" />
+<img width="1914" height="463" alt="image" src="https://github.com/user-attachments/assets/b857140c-541c-4786-974a-7fb70bf98036" />
 <img width="1885" height="510" alt="image" src="https://github.com/user-attachments/assets/32273076-b92c-4675-9cce-6f9487013a2b" />
 
 
