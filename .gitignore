@@ -1,0 +1,32 @@
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+dist/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.env
+.env.local
+.env.*.local
+
+# ===== .NET / Visual Studio =====
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+Generated\ Files/
+*.ncrunchsolution
+*.ncrunchproject
+*.local.json
+appsettings.Development.json
+appsettings.*.json
+
+# ===== OS / Editor =====
+.DS_Store
+Thumbs.db
+.idea/
+*.iml
