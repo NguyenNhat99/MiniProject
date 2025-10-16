@@ -18,14 +18,11 @@ builder.Services.AddCors(opt =>
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-// ✅ AutoMapper: quét profile trong assembly Application
 builder.Services.AddAutoMapper(typeof(ApplicationMapper).Assembly);
 
-// ✅ MediatR: quét tất cả Handler trong Application
 builder.Services.AddMediatR(cfg =>
     cfg.RegisterServicesFromAssembly(typeof(CreateClassRoom).Assembly));
 
-// ✅ Infrastructure (DbContext, Repository, ...)
 builder.Services.AddServiceInfrastructure(builder.Configuration);
 
 var app = builder.Build();
@@ -36,7 +33,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 app.UseHttpsRedirection();
-// CORS nên đặt trước MapControllers
 app.UseCors("MyCors");
 app.MapControllers();
 app.Run();
