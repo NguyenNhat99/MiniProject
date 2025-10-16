@@ -35,7 +35,3 @@ Dự án quản lý sinh viên và lớp học được xây dựng bằng **ASP
 <img width="1914" height="463" alt="image" src="https://github.com/user-attachments/assets/b857140c-541c-4786-974a-7fb70bf98036" />
 <img width="1885" height="510" alt="image" src="https://github.com/user-attachments/assets/32273076-b92c-4675-9cce-6f9487013a2b" />
 
-## Triển khai
-- Được triển khai lên Internet với tên miền: https://nguyenhoangnhat.website
-- API Server được tách riêng với tên miền: https://api.nguyenhoangnhat.website
-- Loại server được dùng: cloud server windown
